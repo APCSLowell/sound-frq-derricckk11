@@ -54,16 +54,16 @@ public class Sound
       num++;
     }
 
-    int[] new = new int[samples.length-num];
+    int[] newSample = new int[samples.length-num];
 
-    for(int i = 0; i < new.length(); i++){
+    for(int i = 0; i < newSample.length(); i++){
 
-      new[i] = samples[num];
+      newSample[i] = sample[num];
       num++
       
     }
 
-    samples = new; 
+    samples = newSample; 
     
   }
 }
