@@ -17,7 +17,7 @@ public class Sound
   {  
     /* to be implemented in part (a) */
     int changed = 0;
-    for(int i = 0; i < samples.length(); i++){
+    for(int i = 0; i < samples.length; i++){
       if(samples[i] < limit){
 
         samples[i] = -limit; 
@@ -56,7 +56,7 @@ public class Sound
 
     int[] newSample = new int[samples.length-num];
 
-    for(int i = 0; i < samples.length(); i++){
+    for(int i = 0; i < samples.length; i++){
 
       newSample[i - num] = samples[i];
       num++;
