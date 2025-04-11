@@ -59,7 +59,6 @@ public class Sound
     for(int i = num; i < samples.length; i++){
 
       newSample[i - num] = samples[i];
-      num++;
       
     }
 
